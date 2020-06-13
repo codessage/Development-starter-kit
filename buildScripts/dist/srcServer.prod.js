@@ -1,0 +1,1 @@
+"use strict";var express=require("express"),path=require("path"),open=require("open"),port=3e3,app=express();app.get("/",function(e,p){p.sendFile(path.join(__dirname,"../src/index.html"))}),app.listen(port,function(e){e?console.log(e):open("http://localhost:"+port)});
