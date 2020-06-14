@@ -1,0 +1,1 @@
+"use strict";var _numeral=_interopRequireDefault(require("numeral"));function _interopRequireDefault(e){return e&&e.__esModule?e:{default:e}}var courseValue=(0,_numeral.default)(1e3).format("$0,0.00");console.log("I would pay ".concat(courseValue," for this awesome course!"));
