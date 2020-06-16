@@ -1,0 +1,1 @@
+"use strict";function getUsers(){return get("users")}function get(e){return fetch(e).then(onSuccess,onError)}function onSuccess(e){return e.json()}function onError(e){console.log(e)}Object.defineProperty(exports,"__esModule",{value:!0}),exports.getUsers=getUsers,require("whatwg-fetch");

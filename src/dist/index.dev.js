@@ -1,5 +1,7 @@
 "use strict";
 
+var _userApi = require("./api/userApi");
+
 var _numeral = _interopRequireDefault(require("numeral"));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
