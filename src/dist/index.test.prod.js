@@ -1,0 +1,1 @@
+"use strict";var _chai=require("chai");describe("our first test",function(){it("should pass",function(){(0,_chai.expect)(!0).to.equal(!0)})});
